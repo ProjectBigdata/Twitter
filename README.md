@@ -5,3 +5,18 @@
 * nongeo-tagged.pig will sample the tweets generated from map reduce job by twitter-nongeotagged.jar.
 * word-freq.pig will generate word counts/frequencies and the output will be used by R script. 
 * The folder bigdata-0.2 contains mapreduce java code.
+
+##Usage:
+###MapReduce
+`hadoop jar twitter.jar nl.utwente.bigdata.TwitterR <INPUT DIRECTORY> <OUTPUT DIRECTORY>`
+###Pig Latin
+```pig –x mapreduce wordfrequency.pig
+pig –x mapreduce general.pig
+```
+
+###R
+```dataset <- read.delim("[FILE PATH]", header=FALSE, quote="", stringsAsFactors=FALSE)
+dataset$V1 = tolower(dataset$V1)
+
+wordcloud(words = dataset$V1, freq = dataset$V2, colors=brewer.pal(9, "Dark2"))
+```
