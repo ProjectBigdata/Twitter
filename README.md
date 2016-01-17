@@ -2,11 +2,13 @@
 Group 06 (Aaqib Saeed, Muhammad Arif Wicaksana, Alexandru Serban)
 
 In this project, we try to characterize Dutch job advertisement tweets in period 2014-2015. Questions we try to answer:
-1. What kind of jobs are posted on Twitter?
-2. How is the job trendings over the period?
-3. Which area over the most jobs on Twitter? 
+
+1 What kind of jobs are posted on Twitter?
+2 How is the job trendings over the period?
+3 Which area over the most jobs on Twitter? 
 
 Our screencast:
+
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=a_Cbd-Ua3xU
 " target="_blank"><img src="http://img.youtube.com/vi/a_Cbd-Ua3xU/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
